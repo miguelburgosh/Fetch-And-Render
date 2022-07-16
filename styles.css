@@ -1,0 +1,98 @@
+/* header */
+
+header {
+    background-color: navy;
+    height: 100px;
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+header h1 {
+    font-weight: 900;
+    color: white;
+    font-style: italic;
+}
+
+/* body */
+
+body {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+/* body subject header */
+
+.subject-news {
+    height: 60px;
+    padding-top: 15px;
+    background-color: lightgray;
+}
+
+.subject-news h3 {
+    font-weight: 400;
+}
+
+.list-group-item {
+    text-align: center;
+    display: inline;
+    background-color: white;
+}
+
+.list-group-item img {
+    border: 6px double salmon;
+    padding: 6px;
+    -webkit-transition: all 1s ease-out;
+   -moz-transition: all 1s ease-out;
+   -o-transition: all 1s ease-out;
+   -ms-transition: all 1s ease-out;
+   transition: all 1s ease-out;
+   border-radius: 15px;
+}
+
+.list-group-item img:hover {
+    width: auto;
+    height: 200px;
+    transition: .6s;
+}
+
+.list-group-item a {
+    text-transform: capitalize;
+    color: rgb(56, 53, 53);
+    font-weight: 700;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+
+.list-group-item a:hover {
+    text-transform: capitalize;
+    color: salmon;
+}
+
+.title-image-news {
+    width: 100%;
+}
+
+.list-group {
+    width: 75%;
+    margin: 5px auto;
+}
+
+.pagination {
+    padding-left: 20%;
+    padding-right: 20%;
+    display: inline;
+}
+
+nav {
+    margin: 40px auto;
+    width: 80%;
+}
+
+.page-item.btn.btn-primary {
+    margin: 2px;
+    background-color: navy;
+    border: 2px solid salmon;
+    color: white;
+}
