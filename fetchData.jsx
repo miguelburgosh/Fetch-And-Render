@@ -98,7 +98,7 @@ const Pagination = ({ items, pageSize, onPageChange }) => {
     const [currentPage, setCurrentPage] = useState(1);
     const pageSize = 10;
     const [{ data, isLoading, isError }, doFetch] = useDataApi(
-      'https://newsapi.org/v2/everything?q=mexico&from=2022-06-15&sortBy=publishedAt&apiKey=59732dda0b6a4333bff286ab01d3f584',
+      'https://newsapi.org/v2/everything?q=mexico&from=2022-06-30&sortBy=publishedAt&apiKey=59732dda0b6a4333bff286ab01d3f584',
       {
         articles: [],
       }
